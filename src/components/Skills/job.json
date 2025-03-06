@@ -1,0 +1,32 @@
+{
+
+
+
+  "SmountTech":{
+    "company": "Smount Tech Pvt. Ltd.",
+    "designation": "Full Stack Developer",
+    "year": "Aug 2024 - Present",
+    "description": [
+      "Worked on Database Management, Automation of various services, and Web Development. Accomplished the task of developing a Websites for Our Management",
+      "Interacted with and supported global clients by troubleshooting and analysing root causes at different development stages"
+    ],
+    "tech": [ "HTML", "CSS", "Sass", "Bootstrap", "ReactJS",  "NodeJS", "MongoDB",  "Git","GitHub", "Content Writing"]
+  },
+
+  "ExcideLifeInsurance":{
+    "company": "Excide Life Insurance",
+    "designation": "Advisor",
+    "year": "Aug 2015 - present",
+    "description": [
+      "Worked as Advisor to Make a policy from Clients"
+    ],
+    "tech": [ "Excel","MS-Office" ,"Content Writing"]
+  
+  }
+ 
+  }
+
+
+
+
+
