@@ -10,7 +10,7 @@ const Socials = () => {
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://www.linkedin.com/in/"
+        href="https://www.linkedin.com/in/aravindrathinavelu"
       >
         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
       </a>

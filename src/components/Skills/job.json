@@ -1,32 +1,34 @@
 {
-
-
-
-  "SmountTech":{
+  "SmountTech": {
     "company": "Smount Tech Pvt. Ltd.",
     "designation": "Full Stack Developer",
     "year": "Aug 2024 - Present",
     "description": [
-      "Worked on Database Management, Automation of various services, and Web Development. Accomplished the task of developing a Websites for Our Management",
-      "Interacted with and supported global clients by troubleshooting and analysing root causes at different development stages"
+      "Developed and maintained dynamic web applications for internal management systems using ReactJS, NodeJS, and ExpressJS.",
+      "Designed and optimized database schemas in MongoDB and MSSQL for performance and scalability.",
+      "Collaborated with cross-functional teams to troubleshoot issues, implement features, and deliver production-ready solutions.",
+      "Interfaced with global clients to gather requirements, provide technical support, and ensure smooth project delivery."
     ],
-    "tech": [ "HTML", "CSS", "Sass", "Bootstrap", "ReactJS",  "NodeJS", "MongoDB",  "Git","GitHub", "Content Writing"]
+    "tech": [
+      "ReactJS",
+      "NodeJS",
+      "MongoDB",
+      "ExpressJS",
+      "MSSQL",
+      "Git",
+      "GitHub"
+    ]
   },
-
-  "ExcideLifeInsurance":{
-    "company": "Excide Life Insurance",
-    "designation": "Advisor",
-    "year": "Aug 2015 - present",
-    "description": [
-      "Worked as Advisor to Make a policy from Clients"
-    ],
-    "tech": [ "Excel","MS-Office" ,"Content Writing"]
-  
-  }
- 
-  }
-
-
-
-
-
+"ExcideLifeInsurance": {
+  "company": "Exide Life Insurance",
+  "designation": "Insurance Advisor",
+  "year": "Aug 2015 - Dec 2023",
+  "description": [
+    "Advised clients on selecting suitable insurance policies based on their financial needs and goals.",
+    "Built and maintained strong client relationships, ensuring long-term policy renewals and customer satisfaction.",
+    "Assisted clients with policy documentation, claims processing, and financial planning support.",
+    "Utilized MS Office tools to manage client data, prepare reports, and maintain policy records."
+  ],
+  "tech": ["Excel", "MS Office", "Content Writing"]
+}
+}

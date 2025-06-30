@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
+    "@emailjs/browser": "^3.12.1",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
-    "gsap-trial": "^3.11.3",
+    "gsap": "^3.13.0",
     "jquery": "^3.6.3",
     "leaflet": "^1.9.3",
     "loaders.css": "^0.1.2",
@@ -21,9 +20,9 @@
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.4.4",
     "react-scripts": "^5.0.1",
-    "saas": "^1.0.0",
-    "sass": "^1.56.1",
-    "vanilla-tilt": "^1.8.0",
+    "sass": "^1.89.2",
+    "sass-loader": "^13.3.3",
+    "vanilla-tilt": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -52,10 +51,10 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "gh-pages": "^4.0.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "jest": "^27.5.1",
-    "prettier": "2.8.0"
+    "jest-scss-transform": "^1.0.4"
   },
   "babel": {
     "presets": [
@@ -64,6 +63,3 @@
     ]
   }
 }
-  
-
-

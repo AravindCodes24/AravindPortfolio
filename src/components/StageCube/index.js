@@ -3,9 +3,9 @@ import {
   faCss3,
   faJs,
   faHtml5,
-  faJava,
   faReact,
   faGit,
+  faNodeJs, // Add this line
 } from '@fortawesome/free-brands-svg-icons'
 import './index.scss'
 
@@ -18,7 +18,7 @@ const StageCube = () => {
 
       <div className="cubespinner">
         <div className="face1">
-          <FontAwesomeIcon icon={faJava} color="#DD0031" />
+          <FontAwesomeIcon icon={faNodeJs} color="#3C873A" />
         </div>
         <div className="face2">
           <FontAwesomeIcon icon={faReact} color="#5ED4F4" />

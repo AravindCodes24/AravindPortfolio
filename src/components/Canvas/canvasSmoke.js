@@ -1,16 +1,3 @@
-// function getMousePos(canvas, evt) {
-//   var rect = canvas.getBoundingClientRect()
-//   return {
-//     x: evt.clientX - rect.left,
-//     y: evt.clientY - rect.top,
-//   }
-// }
-
-// canvas.addEventListener('mousemove', function (evt) {
-//   var mousePos = getMousePos(canvas, evt)
-//   var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y
-//   document.getElementsByTagName('h2')[0].innerText = message
-// })
 
 function canvasSmoke(className) {
   var canvas = document.querySelector('.' + className)
@@ -588,29 +575,28 @@ function canvasSmoke(className) {
     false
   )
 
-  function m(t) {
-    for (
-      var e,
-        n = document.getElementById(t),
-        i = n.innerHTML.replace('&amp;', '&').split(''),
-        a = '',
-        o = 0,
-        s = i.length;
-      s > o;
-      o++
-    ) {
-      e = i[o].replace('&', '&amp')
-      a += e.trim()
-        ? '<span class="letter-' + o + '">' + e + '</span>'
-        : '&nbsp;'
-    }
+ function m(t) {
+  var n = document.getElementById(t);
+  if (!n) return; // <-- 🔐 prevent crash if not found
 
-    n.innerHTML = a
+  var i = n.innerHTML.replace('&amp;', '&').split('');
+  var a = '';
+  var e, o = 0, s = i.length;
 
-    setTimeout(function () {
-      n.className = 'transition-in'
-    }, 500 * Math.random() + 500)
+  for (; o < s; o++) {
+    e = i[o].replace('&', '&amp');
+    a += e.trim()
+      ? '<span class="letter-' + o + '">' + e + '</span>'
+      : '&nbsp;';
   }
+
+  n.innerHTML = a;
+
+  setTimeout(() => {
+    n.className = 'transition-in';
+  }, 500 * Math.random() + 500);
+}
+
 
   window.onload = function () {
     m('h1')
