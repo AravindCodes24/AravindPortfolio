@@ -55,8 +55,7 @@ const Home = () => {
             <span className={`${letterClass} _7`}>I</span>
             <span className={`${letterClass} _8`}>'m</span>
 
-            {/**Name Animation : T abassum */}
-            {/* <img src={LogoTitle} alt="logo-title" /> */}
+          
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
