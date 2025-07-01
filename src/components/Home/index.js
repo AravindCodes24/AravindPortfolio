@@ -73,7 +73,7 @@ const Home = () => {
             />
           </h1>
 
-          <h2 style ={{ color: 'aqua' }}>Web Developer /Frontend Developer/Backend Developer</h2>
+          <h2 style ={{ color: 'aqua' }}>Web Developer /Frontend Developer</h2>
 
           
           {/** CONTACT BUTTON */}
